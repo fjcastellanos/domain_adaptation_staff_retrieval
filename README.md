@@ -126,7 +126,7 @@ datasets
       ├── b-59-850 
       |   ├── image1.jpg 
       |   └── image2.jpg 
-      └── b-59-850 
+      └── Patriarca 
           ├── image1.jpg 
           └── image2.jpg 
 ```
