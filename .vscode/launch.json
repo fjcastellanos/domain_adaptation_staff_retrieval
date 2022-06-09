@@ -1,0 +1,55 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Archivo actual",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args":[
+                "-type", "dann",
+                
+                "-db1_name", "Guatemala",
+                "-db2_name", "b-59-850",
+                
+                "-db1_train", "datasets/JSON/Folds/Guatemala/fold0/train.txt",
+                "-db1_val", "datasets/JSON/Folds/Guatemala/fold0/val.txt",
+                "-db1_test", "datasets/JSON/Folds/Guatemala/fold0/test.txt",
+                
+                "-db2_train", "datasets/JSON/Folds/b-59-850/fold0/train.txt",
+                "-db2_val", "datasets/JSON/Folds/b-59-850/fold0/val.txt",
+                "-db2_test", "datasets/JSON/Folds/b-59-850/fold0/test.txt",
+                
+                "-th_iou", "0.5",
+
+                "-w", "512",
+                "-l", "3",
+                "-f", "32",
+                "-k", "3", 
+                "-drop", "0.",
+                "-lda", "0.01",
+                "-lda_inc", "0.001",
+                "-e", "300",
+                "-se", "1",
+                "-pre", "50",
+                "-b", "12", 
+                "-gpu", "0",
+                "-gpos", "2",
+                "-opt", "sgd",
+                "-classes", "staff", "empty-staff",
+                "-verbose", "1",
+                //"-filter", "with_gt_info",
+                //"-samples", "10000",
+                //"--save",
+                //"--clip",
+                //"--test"
+                
+                
+            ]
+        }
+    ]
+}
