@@ -17,8 +17,8 @@ By using the main.py file. Next we define the different parameters available. No
 
   **-type** : Execution mode: **cnn** for supervised model (Selectional Auto-encoder) and **dann** for our proposal. \
   **-gpu** : GPU index. It is possible to change the gpu used for the process if more GPUs are available. Default: 0 \
-  **-db1_name** : name of the source domain. \
-  **-db2_name** : name of the target domain. \
+  **-db1_name** : name of the source domain. This is used for logs. \
+  **-db2_name** : name of the target domain. This is used for logs. \
   **-db1_train** : path to a txt file with the list of paths to the json files to be used for training. For the **source** domain.\
   **-db1_val** : path to a txt file with the list of paths to the json files to be used for validation. For the **source** domain.\
   **-db1_test** : path to a txt file with the list of paths to the json files to be used for testing. For the **source** domain.\
